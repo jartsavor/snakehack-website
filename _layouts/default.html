@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+    <a id="mlh-localhost"
+       href="https://localhost.mlh.io/"
+       target="_blank">
+        <img src="images/localhost-logo.png"
+             alt="Major League Hacking Localhost"
+             style="width:100%">
+    </a>
+    {% include trust_badge.html %}
+
+    {{ content }}
+
+    <section class="footer">
+      <div class="container text-center">
+        <h1>{{ site.event.name }}</h1>
+        <h3>&copy; 2016 {{ site.event.name }}. Template by <a href="https://github.com/nlaz">Niko Lazaris</a>. &copy; Header image by <a href="http://www.otthag.ch/">Otthag</a>.</h3>
+      </div>
+    </section>
+
+    <script src="js/jquery-1.11.3.js"></script>
+
+    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+  </body>
+</html>

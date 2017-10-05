@@ -1,0 +1,151 @@
+# --------------
+# -- Settings --
+# --------------
+
+# Ignore this. This is only if you're hosting this in a sub-folder.
+baseurl: ""
+
+# If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
+url: "http://stair-ch.github.io"
+#url: "https://snakehack.stair.ch/"
+#url: "http://127.0.0.1:4000/"
+
+# The ability to use custom themes.
+style:
+  theme: "zentralhack"
+
+# This will help you track who's visiting your website.
+tracking:
+  google_analytics: "UA-85600861-1"
+
+# Let people connect & engage with you through social media.
+social:
+
+# This is Search Engine Optimization. It'll help your website look better on search.
+seo:
+  title:       "SnakeHack | 11 Nov 2017"
+  description: "SnakeHack is a one-day programming competition in Rotkreuz. Teams of students build Bots playing the game snake. It takes place from 9am to 8pm on the new campus of the Fachhochschule Luzern (HSLU) informatics department."
+  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+
+# Event information.
+event:
+  name:        "SnakeHack"
+  description: "A one day programming competition in central Switzerland. <br><br>Build a snake bot and defeat your opponents <br><br> <b>registration opens soon</b>"
+  date:        "11 Nov 2017"
+  location:    "Rotkreuz, Switzerland"
+
+
+  hero:
+    links:
+      - text: "Event on Facebook"
+        href: ""
+
+  about:
+    description: >
+      SnakeHack is a one-day programming competition in Rotkreuz in the Innovationspark Zentralschweiz on the HSLU campus.
+      <br>
+      Teams of students build web-based Bots for the game "Snake" and let them compete against each other.
+      <br>
+      Whether you're a seasoned hackathon veteran or have never been to a programming competition before, SnakeHack will be an unforgettable event for you.
+
+  # Frequently asked questions.
+  faq:
+    - question: "What is a programming competition?"
+      answer: >
+        Teams of students try to solve a specific task with code in a short period of time.
+    - question: "How much does it cost?"
+      answer: >
+        Nothing. Attending this competition is free.
+    - question: "Where is the event?"
+      answer: >
+        The event is being hosted at [Innovationspark Zentralschweiz, Suurstoffi 41 in Rotkreuz](https://www.google.ch/maps/place/Suurstoffi+41,+6343+Rotkreuz+ZG).
+    - question: "Will there be food?"
+      answer: >
+        Yes, there is free food. We will provide food, snacks and drinks for everyone through the day.
+    - question: "What is Major League Hacking?"
+      answer: >
+        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+        We work with over 200 Member Events and empower over 70,000 students every year.
+    - question: "Is there a code of conduct?"
+      answer: >
+        Yes there is. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+
+  timeline:
+    days:
+      - day: "Saturday, Nov 11th"
+        events:
+          - title: "Registration"
+            time: "8:30 - 9:00"
+            place: ""
+          - title: "Introduction"
+            time: "9:00"
+            place: ""
+          - title: "Lunch"
+            time: "12:00 - 13:00"
+            place: ""
+          - title: "Dinner"
+            time: "17:30 - 18:30"
+            place: ""
+          - title: "Finals"
+            time: "18:30"
+            place: ""
+          - title: "End"
+            time: "20:00"
+            place: ""
+
+  sponsor:
+    sponsorus: >
+      Interested in sponsoring us? Contact us via <a href="mailto:event@stair.ch">event@stair.ch</a>
+    mainSponsor:
+#      - image: "images/logo-bbv.svg"
+#        url: "https://www.bbv.ch/"
+#        description: >
+#          bbv Software Services AG
+    sponsors:
+#      - image: "images/logo-zuehlke.png"
+#        url: "https://www.zuehlke.com/ch/en/"
+#        description: >
+#          Zühlke Engineering AG
+    sponsorsSmall:
+  #   - image: "images/logo-chio.png"
+  #      url: "http://www.chio.ch/"
+  #      description: >
+  #        chio
+    sectionSupport:
+      - image: "images/logo-innovationspark.png"
+        url: "https://www.building-excellence.ch/"
+        description: >
+          Innovationspark Zentralschweiz
+      - image: "images/logo-stair.png"
+        url: "https://www.stair.ch"
+        description: >
+          Student Association Informatics Rotkreuz
+      - image: "images/logo-hslu.svg"
+        url: "https://www.hslu.ch/de-ch/informatik/"
+        description: >
+          Hochschule Luzern – Informatik
+      - image: "images/logo-mlh.png"
+        url: "https://mlh.io/"
+        description: >
+          Major League Hacking
+
+
+
+  # This is the message you'll receive once you've registered.
+  register:
+    message: >
+      You'll receive more information closer to the hackathon.
+
+# ----------------------------------------------------
+# -- Ignore this unless you know what you're doing. --
+# ----------------------------------------------------
+
+markdown: kramdown
+exclude:
+ - node_modules
+ - gulpfile.js
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME
