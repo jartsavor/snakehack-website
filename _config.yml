@@ -6,7 +6,7 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "http://stair-ch.github.io"
+url: "https://stair-ch.github.io"
 #url: "https://snakehack.stair.ch/"
 #url: "http://127.0.0.1:4000/"
 
