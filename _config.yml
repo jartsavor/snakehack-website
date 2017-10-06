@@ -6,8 +6,7 @@
 baseurl: ""
 
 # If you're using GitHub pages without custom domain, this is "[github_username].github.io". Prepend with "http://"
-url: "https://stair-ch.github.io"
-#url: "https://snakehack.stair.ch/"
+url: "https://snakehack.stair.ch/"
 #url: "http://127.0.0.1:4000/"
 
 # The ability to use custom themes.
@@ -30,7 +29,7 @@ seo:
 # Event information.
 event:
   name:        "SnakeHack"
-  description: "A one day programming competition in central Switzerland. <br><br>Build a snake bot and defeat your opponents <br><br> <b>registration opens soon</b>"
+  description: "A one day programming competition in central Switzerland. <br><br>Build a snake bot and defeat your opponents"
   date:        "11 Nov 2017"
   location:    "Rotkreuz, Switzerland"
 
