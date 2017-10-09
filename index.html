@@ -88,7 +88,8 @@ layout: default
       {% endfor %}
 
     </div>
-
+ -->
+     {{site.event.sponsor.sponsorus | markdownify}}
     <div class="row row-centered">
       <h1 class="text-center">Food & Drinks provided by</h1>
       {% for sponsors in site.event.sponsor.sponsorsSmall %}
@@ -101,9 +102,9 @@ layout: default
       </div>
       {% endfor %}
 
-    </div> -->
+    </div>
 
-    {{site.event.sponsor.sponsorus | markdownify}}
+
     <h1 class="text-center">Supported by</h1>
     <div class="row row-centered">
       {% for sectionSupport in site.event.sponsor.sectionSupport %}

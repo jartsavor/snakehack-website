@@ -13,9 +13,6 @@ url: "https://snakehack.stair.ch/"
 style:
   theme: "zentralhack"
 
-# This will help you track who's visiting your website.
-tracking:
-  google_analytics: ""
 
 # Let people connect & engage with you through social media.
 social:
@@ -23,7 +20,7 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "SnakeHack | 11 Nov 2017"
-  description: "SnakeHack is a one-day programming competition in Rotkreuz. Teams of students build Bots playing the game snake. It takes place from 9am to 8pm on the new campus of the Fachhochschule Luzern (HSLU) informatics department."
+  description: "SnakeHack is a one-day programming competition in Rotkreuz. Teams of students build bots playing the game snake. It takes place from 9am to 8pm on the new campus of the Fachhochschule Luzern (HSLU) informatics department."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
@@ -37,13 +34,13 @@ event:
   hero:
     links:
       - text: "Event on Facebook"
-        href: ""
+        href: "https://www.facebook.com/events/156930364897350"
 
   about:
     description: >
       SnakeHack is a one-day programming competition in Rotkreuz in the Innovationspark Zentralschweiz on the HSLU campus.
       <br>
-      Teams of students build web-based Bots for the game "Snake" and let them compete against each other.
+      Teams of students build web-based bots for the game "Snake" and let them compete against each other.
       <br>
       Whether you're a seasoned hackathon veteran or have never been to a programming competition before, SnakeHack will be an unforgettable event for you.
 
@@ -61,10 +58,13 @@ event:
     - question: "Will there be food?"
       answer: >
         Yes, there is free food. We will provide food, snacks and drinks for everyone through the day.
+    - question: "Help, I can't code."
+      answer: >
+        You don't need to be a coding champ, basic coding skills are enough and there will be help available.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-        We work with over 200 Member Events and empower over 70,000 students every year.
+        They work with over 200 Events and empower over 70,000 students every year.
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
@@ -106,10 +106,14 @@ event:
 #        description: >
 #          Zühlke Engineering AG
     sponsorsSmall:
-  #   - image: "images/logo-chio.png"
-  #      url: "http://www.chio.ch/"
-  #      description: >
-  #        chio
+      - image: "images/logo-monday.png"
+        url: "http://www.monday-energy.ch/"
+        description: >
+          Monday energy
+      - image: "images/logo-eichhof.png"
+        url: "http://www.eichhof.ch/"
+        description: >
+          Eichhof
     sectionSupport:
       - image: "images/logo-innovationspark.png"
         url: "https://www.building-excellence.ch/"
