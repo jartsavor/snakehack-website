@@ -33,8 +33,11 @@ event:
 
   hero:
     links:
+      - text: "Apply"
+        href: "#signup"
       - text: "Event on Facebook"
         href: "https://www.facebook.com/events/156930364897350"
+
 
   about:
     description: >
@@ -110,6 +113,11 @@ event:
         url: "http://www.monday-energy.ch/"
         description: >
           Monday energy
+
+      - image: "images/logo-eltony.jpg"
+        url: "http://www.tonymate.com/"
+        description: >
+          El Tony Mate
       - image: "images/logo-eichhof.png"
         url: "http://www.eichhof.ch/"
         description: >
