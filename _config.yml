@@ -99,15 +99,19 @@ event:
     sponsorus: >
       Interested in sponsoring us? Contact us via <a href="mailto:event@stair.ch">event@stair.ch</a>
     mainSponsor:
-#      - image: "images/logo-bbv.svg"
+#      - image: "images/careers-service.jpg"
 #        url: "https://www.bbv.ch/"
 #        description: >
 #          bbv Software Services AG
     sponsors:
-#      - image: "images/logo-zuehlke.png"
-#        url: "https://www.zuehlke.com/ch/en/"
-#        description: >
-#          Zühlke Engineering AG
+      - image: "images/logo-pwc.jpg"
+        url: "https://www.pwc.com/"
+        description: >
+          PwC
+      - image: "images/logo-careers-service.jpg"
+        url: "https://www.hslu.ch/en/careers/"
+        description: >
+          Careers Service
     sponsorsSmall:
       - image: "images/logo-monday.png"
         url: "http://www.monday-energy.ch/"
